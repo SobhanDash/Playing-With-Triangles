@@ -1,0 +1,44 @@
+footer {
+  background: linear-gradient(
+    150deg,
+    rgba(81, 43, 116, 1) 36%,
+    rgba(24, 89, 194, 0.993) 100%
+  );
+  display: flex;
+  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.25);
+  font-family: "Satisfy", cursive;
+  font-size: 1rem;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.non-bullet {
+  list-style: none;
+}
+
+.inline-list {
+  display: inline;
+  padding: 0rem 0.4rem;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  width: max-content;
+  min-width: 140px;
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  color: var(--nav);
+  margin: 2rem 0rem;
+}
+
+
+@media screen and (max-width: 760px) {
+  .inline-list {
+    margin-left: 1rem;
+    padding: 0 1rem;
+  }
+}
