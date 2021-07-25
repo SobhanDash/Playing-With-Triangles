@@ -1,0 +1,25 @@
+.label {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 1rem 1rem;
+  display: block;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.493);
+}
+
+@media screen and (max-width: 786px) {
+  .img-container img {
+    width: 400px;
+  }
+  .input input {
+    width: 70%;
+  }
+}

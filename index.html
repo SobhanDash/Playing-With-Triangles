@@ -4,75 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <meta name="author" content="Sobhan Dash">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Playing With Triangles</title>
   </head>
   <body>
-    <div className="header">
+    <div class="main">
+      <div class="header">
         <h1>Playing with Triangles? Sounds fun right, Try!</h1>
+        <h3>(Can you make a triangle with 4 squares?)</h3>
       </div>
-      <div className="main">
-        <div className="grid">
-          <div className="col">
-            <a href="./pages/Angles/Angles.js">
-              <div className="cell">
-                <p>Make a Triangle?</p>
-              </div>
-            </a>
-            <a href="./pages/Area/Area.js">
-              <div className="cell">
-                <p>Find Area of the TriState Area</p>
-              </div>
-            </a>
-          </div>
-          <div className="col">
-            <a href="./pages/Hypotenuse/Hypotenuse.js">
-              <div className="cell">
-                <p>What's Hypotenuse?</p>
-              </div>
-            </a>
-            <a href="./pages/Quiz/Quiz.js">
-              <div className="cell">
-                <p>Dare to Take a Quiz</p>
-              </div>
-            </a>
-          </div>
+
+      <div class="grid">
+        <div class="col">
+          <a href="./angles/angles.html">
+            <div class="cell">
+              <p>Make a Triangle?</p>
+            </div>
+          </a>
+          <a href="./area/area.html">
+            <div class="cell">
+              <p>Find Area</p>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="./pages/Hypotenuse/Hypotenuse.js">
+            <div class="cell">
+              <p>What's a Hypotenuse?</p>
+            </div>
+          </a>
+          <a href="./pages/Quiz/Quiz.js">
+            <div class="cell">
+              <p>Dare to Take a Quiz</p>
+            </div>
+          </a>
         </div>
       </div>
-      <footer>
+    </div>
+
+    <footer>
         <ul class="non-bullet">
-          <li class="inline-list">
-            <a class="link" href="mailto: sobhan7dash@gmail.com">
-              <FaEnvelope size={26}/>
-            </a>
-          </li>
-          <li class="inline-list">
-            <a class="link" href="https://github.com/SobhanDash">
-              <FaGithub size={26}/>
-            </a>
-          </li>
-          <li class="inline-list">
-            <a class="link" href="https://bit.ly/33dlIbc">
-              <FaLinkedinIn size={26}/>
-            </a>
-          </li>
-          <li class="inline-list">
-            <a class="link" href="https://dev.to/sobhandash">
-              <FaDev size={26}/>
-            </a>
-          </li>
-          <li class="inline-list">
-            <a class="link" href="https://twitter.com/neo_kaizerr">
-              <FaTwitter size={26}/>
-            </a>
-          </li>
-          <li class="inline-list">
-            <a class="link" href="https://www.instagram.com/n_e_o_007/">
-              <FaInstagram size={26}/>
-            </a>
-          </li>
+            <li class="inline-list">
+                <a class="link" href="mailto: sobhan7dash@gmail.com">
+                    <i class="bx bx-envelope"></i>
+                </a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://github.com/SobhanDash">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://bit.ly/33dlIbc">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://dev.to/sobhandash">
+                    <i class='bx bxl-dev-to'></i>
+                </a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://twitter.com/neo_kaizerr">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://www.instagram.com/n_e_o_007/">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </li>
         </ul>
-      </footer>
+        </div>
+    </footer>
     <script src="./index.js"></script>
   </body>
 </html>
