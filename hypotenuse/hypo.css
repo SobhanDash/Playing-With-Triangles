@@ -1,0 +1,24 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 650px;
+}
+
+.input input {
+  margin: 1rem 1rem;
+  width: 70%;
+}
+
+@media screen and (max-width: 786px) {
+  .input input {
+    margin: 1rem 1rem;
+    width: 70%;
+  }
+  .img-container img {
+    width: 400px;
+  }
+}
