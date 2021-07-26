@@ -1,0 +1,67 @@
+.quizForm {
+  text-align: left;
+}
+
+.quizForm label.question {
+  display: block;
+}
+
+.radio input {
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  display: inline-block;
+}
+
+.radio {
+  padding: 0.5rem 1rem;
+  white-space: normal;
+}
+
+.radio label {
+  cursor: pointer;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  display: inline-block;
+}
+
+.ow {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.493);
+}
+
+.input input {
+  width: 12px;
+  box-shadow: none;
+}
+
+.ip1,
+.ip2,
+.ip3 {
+  display: block;
+  padding: 1.2rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .input {
+    flex-flow: column wrap;
+  }
+  img {
+  width: 600px;
+  }
+}
