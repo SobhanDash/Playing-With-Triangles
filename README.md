@@ -2,7 +2,7 @@
 
 ## What is this app about?
 
-This is a fun app created in React JS to learn about triangles in fun way. It has four sections:
+This is a fun app created in JavaScript to learn about triangles in fun way. It has four sections:
 
 1. Angles of Triangle: To check if user input angles form a triangle
 2. Check Hypotenuse: To calculate hypotenuse if user know lengths of sides of right angle triangle
